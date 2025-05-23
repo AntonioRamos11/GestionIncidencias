@@ -1,0 +1,229 @@
+.principal-admin-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: -2%;
+    background: linear-gradient(to bottom, #e2e2e2, #a4d1f1);
+    width: 101%;
+    border-top: 2px dashed #125db3;
+    padding-top: 10px;
+}
+.principal-admin-buttons {
+    display: flex;
+    gap: 7px;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+.principal-admin-btn {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+.modal-dialog {
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.75rem 1.25rem;
+}
+.modal-body {
+    padding: 1.25rem;
+}
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #dee2e6;
+    padding: 0.75rem 1.25rem;
+}
+.modal-footer .btn {
+    margin-left: 0.5rem;
+}
+.modal-footer .btn:first-of-type {
+    margin-left: 0;
+}
+.input-container {
+    position: relative;
+}
+.input-container input[type="password"] {
+    padding-right: 4rem;
+}
+.input-container .show-password-button {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 0.9rem;
+    height: 2rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pO-btns-border-color{
+    border: 1px solid gray;
+    color: black;
+    width: 12%;
+    border-radius: 3px;
+}
+.pO-div-btns-group{
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+.pO-div-tabla{
+    width: 99%;
+    max-height: 613px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(56, 89, 171, 0.6);
+}
+.pO-tabla-encabezado{
+    background-color: #043c64;
+    opacity: 0.8;
+}
+.pO-folio{
+    width: 3%;
+}
+.pO-fecha{
+    width: 9%;
+}
+.pO-departamento{
+    width: 25%;
+}
+.pO-descripcion{
+    width: 38%;
+}
+.pO-estatus{
+    width: 10%;
+}
+.pO-acciones{
+    width: 15%;
+}
+.pO-tabla-centrado{
+    text-align: center;
+}
+.pO-border-encabezado{
+    border: 1.5px solid rgb(148, 171, 202);
+}
+.pO-border-cuerpo{
+    border: 1px solid rgb(153, 96, 244);
+
+}
+.pO-border-cuerpo-general{
+    border: 1px solid rgb(153, 96, 244);
+    box-shadow: 10px 10px 15px rgba(56, 89, 171, 0.1);
+}
+.pO-orden-trabajo{
+    border-radius: 3px;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: #7c0494;
+    padding: 2% 4%;
+}
+.pO-orden-trabajo:hover{
+    background-color: #283676;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.pO-div-noEditable{
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 3px;
+    color: rgb(101, 101, 101);
+    padding-left: 2%;
+    background-color: rgb(227, 227, 227);
+    margin-bottom: 2%;
+}
+.pO-div-lugar{
+    border: 1px solid rgb(0, 174, 255);
+    margin-top: -1.2%;
+    padding: 0.8%;
+    padding-left: 1.5%;
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.pO-hr-solicitud{
+    margin-left: 13%;
+}
+.pO-fecha-solicitud{
+    margin-left: 4%;
+}
+.pO-btn-equipo{
+    margin-left: 15%;
+}
+.btn-tam-diagnostico{
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+}
+.btn-posicion{
+    margin-left: 72%;
+}
+.PO-separacion-btn-rfc{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.pO-hF-posicion{
+    margin-left: 25%;
+}
+.pO-hI-posicion{
+    margin-left: 7%;
+}
+.pO-DM-posicion{
+    margin-left: 7%;
+}
+.color-lila{
+    color: #7c0494;
+}
+.pO-ct-posicion{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.color-naranja{
+    color: #db5e15;
+}
+.btn-AP{
+    margin-left: 2%;
+    background-color: white;
+    border: none;
+    font-size: 190%;
+}
+.btn-AP:hover {
+    background-color: transparent;
+    transform: scale(1.50);
+}
+.pos-btn-solucion{
+    margin-left: 85%;
+}
+.tam-dI{
+    height: 1000%;
+}

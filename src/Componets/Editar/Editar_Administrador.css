@@ -1,0 +1,21 @@
+.editar-sidebar {
+    height: 99.9vh; 
+    padding: 20px;
+    background-color: #043c64; 
+    color: white; 
+    border-right: 1px solid #ddd;
+}
+.editar-sidebar .editar-nav-link {
+    border-radius: 0;
+    margin-bottom: 5px;
+    background-color: #043c64; 
+    color: white; 
+    text-align: left;
+    border: none;
+}
+.editar-sidebar .editar-nav-link:hover {
+    background-color: #032a4c;
+}
+.editar-content {
+    padding: 20px;
+}

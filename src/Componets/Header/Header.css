@@ -1,0 +1,51 @@
+.div-general{
+    background: linear-gradient(to right, #e3a697, #c595cd);
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 2%;
+    width: 101%;
+}
+.tam-letra-45px{
+    font-size: 45px;
+}
+.nombre-escuela{
+    display: inline-block;
+}
+.loco-culiacan{
+    width: 7%;
+    position: relative;
+    right: 40%;
+    top: 18px;
+}
+.tam-letra{
+    font-size: 26px;
+    color: #283676;
+}
+.tam-letra-17px{
+    font-size: 17px;
+}
+.tam-letra-18px{
+    font-size: 18px;
+}
+.color-boton-lila{
+    background-color: transparent; /* Sin fondo */
+    border: none; /* Sin borde */
+    color: #7c0494;
+}
+.btn-sin-border{
+    border: none;
+    border-radius: 2px;
+}
+.tam-btn-header{
+    height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.header-editar-btn{
+    margin-right: 10px;
+}
+.div-inf-actual{
+    margin-left: 72%;
+}
